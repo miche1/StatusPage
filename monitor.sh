@@ -2,7 +2,7 @@
 
 WATCH_IP_1="dbblgffno2hzk3ar.myfritz.net"
 WATCH_IP_2="cloud.miche1.de"
-PAUSE=5
+PAUSE=300
 
 #init
 rm status-log.txt;
@@ -11,7 +11,7 @@ rm status-log.txt;
 
 
 while true; do
-  echo "" > status-log.txt;  
+  echo "" > status-log.txt;
 
   #vpn
   if ! ping -c 1 -w 1 $WATCH_IP_1 > /dev/null; then
@@ -29,4 +29,3 @@ while true; do
 
   sleep $PAUSE;
 done
-
