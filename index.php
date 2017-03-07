@@ -4,32 +4,28 @@
 </head>
 <body>
   <h1>Status</h1>
-
+  <h2>Hosts</h2>	
   <?php
-    $logFile = file_get_contents('/home/monitor/status-log.txt');
+    
+ $logFile = file_get_contents('/home/monitor/status-log.txt');
 
-   //  echo $logFile;
 
     $data = explode( ';', $logFile);
 
-    if ($data[1] == "true")
-    {
-    print("<h3> VPN -- online </h3>");
-    }
-    else
-    {
-    print("<h3> VPN -- offline </h3>");
-    }
+  status($data[1],"VPN");
+  status($data[3],"cloud");
 
-    if ($data[3] == "true")
-    {
-      print("<h3> cloud -- online </h3>");
-    }
-    else
-    {
-        print("<h3> cloud -- offline </h3>");
-    }
-
+	function status($stat, $host)
+	{
+	    if ($stat == "true")
+	    {
+   		 print("<h3>".$host." -- online </h3>");
+   	    }
+   	    else
+    	    {
+	    print("<h3>".$host." -- offline </h3>");
+	    }
+	}
   ?>
 
 </body>
