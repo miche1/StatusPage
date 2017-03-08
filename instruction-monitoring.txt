@@ -1,0 +1,24 @@
+#readme monitor.sh
+-----------------------------------------------
+
+#start special screen
+screen -S service-monitoring
+
+# change at screen an open the folder
+cd /home/monitor/
+
+#start script
+./monitor.sh
+
+#leave without terminating the screen
+STRG + A + D
+
+# terminate screen
+STRG + D
+
+#show all screens
+screen -ls
+
+#reopen of an active screen
+
+screen -r (screen name)
