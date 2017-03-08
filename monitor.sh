@@ -8,8 +8,6 @@ PAUSE=300
 rm status-log.txt;
 
 
-
-
 while true; do
   echo "" > status-log.txt;  
 
@@ -27,6 +25,7 @@ while true; do
     echo $WATCH_IP_2 ";true;" >> status-log.txt;
   fi;
 
+  echo "checking status..."
   sleep $PAUSE;
 done
 

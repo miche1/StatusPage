@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Status</title>
+  <title>monitoring</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="bootstrap.css">
 </head>
@@ -8,7 +8,7 @@
 
   <div class="jumbotron" style="background-color: #ecf0f1; width:80%; margin: auto; padding-top: 2em;">
     <div style="width:90%;margin: auto;">
-    <h1><b>status</b></h1>
+    <h1><b>STATUS</b></h1>
     <h2>services</h2>
     <br>
 
