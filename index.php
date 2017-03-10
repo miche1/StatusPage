@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>status</title>
-  <meta http-equiv="refresh" content="30; URL=http:status.miche1.de"> 
+  <meta http-equiv="refresh" content="30; URL=http:status.miche1.de">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
@@ -34,6 +34,7 @@
   status($data[1],"VPN");
   status($data[3],"cloud");
   status($data[5],"node");
+  status($data[5],"node2");
 
 	function status($stat, $host)
 	{
@@ -47,11 +48,22 @@
 	    }
 	}
 
+  function showTime()
+  {
+    print("<h5>");
+    print(date("H:i:s"));
+    print("<h5>");
+  }
   ?>
 
-  <button class="btn btn-default" href="#">show logs</button>
+ <table>
+   <tr>
+     <td> <button class="btn btn-default" href="#">show logs</button> </td>
+     <td style="padding-left: 1em"><?php showTime(); ?> </td>
+  </tr>
+</table>
 </div>
 </div>
-</form="">
+</form>
 </body>
 </html>
