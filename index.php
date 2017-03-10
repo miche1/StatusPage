@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>status</title>
+  <title>services status</title>
   <meta http-equiv="refresh" content="30; URL=http:status.miche1.de">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="media/icon.png"/>
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <!--<link rel="manifest" href="manifest.json">-->
+  <link rel="manifest" href="manifest.json">
   <meta name="status" content="status">
 
 </head>
