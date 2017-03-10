@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>services status</title>
-  <meta http-equiv="refresh" content="30; URL=http:status.miche1.de">
+  <meta http-equiv="refresh" content="300; URL=http:status.miche1.de">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
