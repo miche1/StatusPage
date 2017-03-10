@@ -1,7 +1,6 @@
 <html>
 <head>
   <title>status</title>
-  <meta http-equiv="refresh" content="30; URL=http:status.miche1.de"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
@@ -13,12 +12,12 @@
   <meta name="status" content="status">
 
 </head>
-<body style="background-color: #ffffff;">
+<body style="background-color: #ecf0f1;">
 
 <form method="get" action="index.php">
-  <div class="jumbotron" style="background-color: #ffffff; width:80%; margin: auto; padding-top: 2em;">
+  <div class="jumbotron" style="background-color: #ecf0f1; width:80%; margin: auto; padding-top: 2em;">
     <div style="width:90%;margin: auto;">
-    <h1 class="page-header"><b>STATUS</b></h1>
+    <h1><b>STATUS</b></h1>
     <h2>services
       <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-refresh"></span> Refresh</button>
     </h2>
@@ -33,7 +32,6 @@
 
   status($data[1],"VPN");
   status($data[3],"cloud");
-  status($data[5],"node");
 
 	function status($stat, $host)
 	{
