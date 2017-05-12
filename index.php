@@ -34,7 +34,7 @@
   status($data[1],"VPN");
   status($data[3],"cloud");
   status($data[5],"node");
-  status($data[5],"node2");
+  status($data[7],"node2");
 
 	function status($stat, $host)
 	{
